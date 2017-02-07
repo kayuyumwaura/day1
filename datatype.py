@@ -2,7 +2,7 @@ def data_type(n):
 	#checks if input is string.
 	if isinstance (n, str):
 		#checks if input is none else returns the length of string 
-		if (n == 'none'): 
+		if (n == 'None'): 
 			print ('no value')
 		else:
 			print (len(n))
