@@ -1,11 +1,27 @@
-value = 'abracadabra'
+def data_type(n):
+	#checks if input is string.
+	if isinstance (n, str):
+		#checks if input is none else returns the length of string 
+		if (n == 'none'): 
+			print ('no value')
+		else:
+			print (len(n))
 
-def count_letters(word, char):
-    count = 0
-    for c in word:
-        if char == c:
-            count += 1
-    return count
+	#checks if input is an integer
+	elif isinstance (n, int):
+		if n>100:
+	        return 'more than 100'
 
-x = count_letters(value, 'b')
-print (x)
+	    elif n<100:
+			return 'less than 100'
+
+    	else:
+    		return 'equal to 100'len(n)
+
+    #checks if input is a boolean if so prints the value of boolean
+    elif isinstance (n, bool):
+    	print (n)
+
+    #checks if input is a list and prints the third item
+    elif isinstance (n, list):
+    	print (n[2])
