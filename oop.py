@@ -9,9 +9,8 @@ def login(self):
 	if self.password == input_password:
             print ("login successful. Welcome", username)
 	return home
-
-else:
-	print ("invalid username or password")
-	attempts >=3
-	print ("login failed. forgot password?")
-	return False
+elif self.password == input_password:
+            print ("invalid username or password")
+            else:
+                print ("login failed. forgot password?")
+                return False
