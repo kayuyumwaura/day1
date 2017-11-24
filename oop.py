@@ -2,15 +2,13 @@ class customer():
     def __init__ (self, username, password):
         self.username = username
         self.password = password
-
-
-def login(self, username, password):
+def login(self):
 	attempts = 0
-	while attempts <=2
-	input = input("Please enter your username and password")
-	if self.password == imput_password
-	print ("login successful. Welcome", username!)
-	return Home
+	while attempts <=2:
+            input = input("Please enter your username and password")
+	if self.password == input_password:
+            print ("login successful. Welcome", username)
+	return home
 
 else:
 	print ("invalid username or password")
