@@ -1,8 +1,8 @@
-Class Customer(object):
-def __init__ (self, username, password)
+class customer():
+    def __init__ (self, username, password):
+        self.username = username
+        self.password = password
 
-self.username = username
-self.password = password
 
 def login(self, username, password):
 	attempts = 0
